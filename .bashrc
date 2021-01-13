@@ -126,3 +126,6 @@ fi
 if [ -d "$HOME/usr/local/go/bin" ]; then
     export PATH=$PATH:/usr/local/go/bin
 fi
+
+# direnv
+eval "$(direnv hook bash)"
